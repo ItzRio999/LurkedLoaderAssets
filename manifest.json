@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "downloadUrl": "https://api.lurkedaccounts.tech/api/tweaks/download",
+
+  "patchNotes": [
+    {
+      "version": "1.0",
+      "date": "2026-06-07",
+      "changes": [
+        "Dev note - Step 1 (build): Stood up the loader from scratch - KeyAuth sign-in/registration, a black/purple Dear ImGui + DirectX 9 UI with open/close fades and toast notifications, manifest-driven version/patch-notes/announcements, and download-and-launch with a live progress bar.",
+        "Dev note - Step 2 (polish): Removed the panel scrollbars so every card shows all of its info at once, and moved the window onto the fast hardware present path for snappier, lower-latency UI.",
+        "Dev note - Step 3 (admins): Started the owner/admin role system and an in-loader Admin tab so the team can manage announcements, patch notes, and the download link without ever touching the config."
+      ]
+    }
+  ],
+
+  "announcements": [
+    {
+      "title": "Loader is now in development mode",
+      "date": "2026-06-07",
+      "body": "LurkedTweaks Loader has officially entered development mode. The devs are actively working to get everything up and running as soon as possible - thanks for your patience while we build it out. Watch this space for updates."
+    }
+  ]
+}
